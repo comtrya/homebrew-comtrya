@@ -10,6 +10,6 @@ class Comtrya < Formula
   version "0.9.0"
 
   def install
-    bin.install "comtrya"
+    bin.install "comtrya-aarch64-apple-darwin" => "comtrya"
   end
 end
